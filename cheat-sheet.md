@@ -1,6 +1,9 @@
-# 📌 Nom du Projet
+<<<<<<< Updated upstream
+# Cheat-sheet Lazygit
+=======
+# 📌 Cheat-sheet Lazygit
+>>>>>>> Stashed changes
 
-Une brève description du projet, expliquant son objectif et ses principales fonctionnalités.
 
 ## 📖 Table des Matières
 
@@ -9,6 +12,38 @@ Une brève description du projet, expliquant son objectif et ses principales fon
 - [⚙️ Configuration](#-configuration)
 - [🛠 Fonctionnalités](#-fonctionnalites)
 - [📄 Documentation](#-documentation)
+- [✅ Tests](#-tests)
+- [📜 Licence](#-licence)
+- [📬 Contact](#-contact)
+
+
+🚀 **Boostez votre efficacité avec LazyGit : La gestion Git simplifiée !**
+
+---
+
+## 📌 **LazyGit, votre meilleur allié pour Git**
+
+🔹 **Git est incontournable, mais ses commandes complexes peuvent vite devenir un obstacle.** **LazyGit** supprime ces difficultés en proposant une interface graphique claire, intuitive et ultra-rapide. Finies les commandes interminables : gérez vos commits ✅, fusionnez vos branches 🌿 et naviguez aisément dans l'historique 📜 de votre dépôt grâce à une expérience utilisateur optimisée.
+
+![LazyGit Interface](https://raw.githubusercontent.com/LucasAliasElvennope/test-stash/refs/heads/main/Exemple%20lazygit.png)
+
+🖥️ **LazyGit simplifie et accélère votre workflow Git !** 🚀 Fini les commandes complexes : tout est accessible en quelques touches ou clics. Que vous soyez débutant 🐣 ou développeur confirmé 🧑‍💻, LazyGit vous aide à rester productif tout en réduisant les erreurs.
+
+📌 **Consacrez moins de temps ⏳ à gérer Git, et concentrez-vous sur l’essentiel : votre code !** 💡
+
+---
+
+## 🎯 **Pourquoi adopter LazyGit en entreprise ?**
+
+| ⚡ **Avantage**                           | 🎯 **Bénéfices pour votre équipe**                                       |
+|------------------------------------------|-------------------------------------------------------------------------|
+| 🚀 **Rapidité accrue**                   | ⏱️ Réduit considérablement le temps consacré à Git, augmentant la productivité. |
+| 🖥️ **Interface ergonomique**             | 📊 Permet une vision claire et immédiate de l’état du projet.            |
+| 🔥 **Réduction des erreurs**             | 🎯 Présente clairement les modifications, limitant ainsi les risques d’erreur. |
+| 🛠️ **Opérations complexes simplifiées**  | ⚙️ Facilite grandement les opérations telles que le rebase, cherry-pick et reset. |
+| 🤝 **Collaboration optimisée**           | 🧑‍🤝‍🧑 Renforce la fluidité et l’efficacité du travail collaboratif.      |
+
+> **En entreprise, LazyGit aide votre équipe à se concentrer pleinement sur le développement du produit en éliminant les contraintes liées à la gestion des versions.**
 
 ## 🔧 Installation
 
@@ -69,4 +104,12 @@ Assurez-vous de remplacer les valeurs par vos configurations réelles.
 ## 📄 Documentation
 
 Pour une documentation détaillée, veuillez visiter : [Lien vers la documentation](https://votre-lien-documentation.com)
+
+## ✅ Tests
+
+Pour exécuter les tests, utilisez la commande suivante :
+```bash
+npm test  # ou yarn test
+```
+Assurez-vous que tous les tests passent avant le déploiement.
 

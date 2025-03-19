@@ -9,9 +9,6 @@ Une brève description du projet, expliquant son objectif et ses principales fon
 - [⚙️ Configuration](#-configuration)
 - [🛠 Fonctionnalités](#-fonctionnalites)
 - [📄 Documentation](#-documentation)
-- [✅ Tests](#-tests)
-- [📜 Licence](#-licence)
-- [📬 Contact](#-contact)
 
 ## 🔧 Installation
 
@@ -72,12 +69,4 @@ Assurez-vous de remplacer les valeurs par vos configurations réelles.
 ## 📄 Documentation
 
 Pour une documentation détaillée, veuillez visiter : [Lien vers la documentation](https://votre-lien-documentation.com)
-
-## ✅ Tests
-
-Pour exécuter les tests, utilisez la commande suivante :
-```bash
-npm test  # ou yarn test
-```
-Assurez-vous que tous les tests passent avant le déploiement.
 

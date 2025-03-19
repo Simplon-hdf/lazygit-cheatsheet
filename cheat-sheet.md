@@ -25,7 +25,7 @@
 
 ### **Git est essentiel, mais soyons honnêtes : ses commandes peuvent vite devenir un casse-tête.**   
 
-Avec **LazyGit**, tout devient plus fluide grâce à une interface claire, intuitive et ultra-rapide. Plus besoin de retenir de longues commandes : en quelques clics, vous gérez vos commits 📝, fusionnez vos branches 🌿 et explorez l’historique 📖 de votre dépôt avec facilité.  
+Avec **LazyGit**, tout devient plus fluide grâce à une interface claire, intuitive et rapide. Plus besoin de retenir de longues commandes : en quelques clics, vous gérez vos commits 📝, fusionnez vos branches 🌿 et explorez l’historique 📖 de votre dépôt avec facilité.  
 
 ![LazyGit Interface](https://raw.githubusercontent.com/LucasAliasElvennope/test-stash/refs/heads/main/Exemple%20lazygit.png)  
 

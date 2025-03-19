@@ -268,9 +268,45 @@ gui:
 ---
 ## 🛠 Fonctionnalités
 
-- ✅ Fonctionnalité 1 - Brève description
-- ✅ Fonctionnalité 2 - Brève description
-- ✅ Fonctionnalité 3 - Brève description
+ ## 🌟 Principales fonctionnalités
+
+
+### ✅ **Gestion simplifiée des commits**
+
+- ⚡ Création rapide et intuitive
+- ✏️ Modification simple des messages
+- 📅 Historique visuel clair et interactif
+- ♻️ Possibilité d'amender facilement les commits récents
+
+### 🌿 **Branches sans prise de tête**
+
+- 🌱 Création, renommage et suppression facile
+- 🔄 Changement rapide entre branches
+- 🔀 Fusion et rebase fluides et intuitifs
+
+### 📁 **Fichiers et changements visibles en un coup d'œil**
+
+- ➕ Gestion claire du staging
+- 📝 Visualisation rapide et lisible des modifications
+- 🔧 Résolution facilitée des conflits de fusion
+
+### ☝️ **Interaction optimisée avec les dépôts distants**
+
+- 📤 Envoi (push) rapide vers les remotes
+- 📥 Récupération (pull) claire et simplifiée
+- 📡 Support pratique des multiples remotes
+
+### 🎨 **Interface utilisateur conviviale**
+
+- 🖥️ Affichage interactif en panneaux clairs
+- 🎛️ Expérience utilisateur fluide et intuitive
+- 🔖 Navigation rapide et efficace
+
+## 🛠️ Fonctionnalités avancées
+
+- 🔍 Support intégré pour visualiser les différences clairement
+- 📊 Historique interactif et lisible des logs
+- 🔑 Simplification des tâches répétitives et complexes
 
 ## 📄 Documentation
 

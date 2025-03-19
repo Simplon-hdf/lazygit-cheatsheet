@@ -197,7 +197,11 @@ Si le dossier n'existe pas,crée-le:
 
 ```
 
+<<<<<<< HEAD
 ### **1. Configuration minimale pour bien débuter** 📝
+=======
+### 📝 1.Configuration minimale pour bien débuter 📝
+>>>>>>> local
 
    Si tu veux **commencer simplement**, voici une **configuration de bade** qui améliore l'expérience utilisateur :
 
@@ -221,7 +225,11 @@ git:
 
 ```
 
+<<<<<<< HEAD
 ### **2. Configurer les raccourcis clavier** ⚡⚡⚡
+=======
+### ⚡ 2.Configurer les raccourcis clavier ⚡
+>>>>>>> local
 
    Tu veux **accélérer ton travail** avec des **touches personnalisées**? Voici un bon setup 👇
  
@@ -245,9 +253,15 @@ keybindings:
 
 ```
 
+<<<<<<< HEAD
 ### **3.Changer les couleurs pour un terminal plus stylé** 🎨
 
    Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: yellow; padding: 2px">config.yml</span>
+=======
+### 🎨 3.Changer les couleurs pour un terminal plus stylé 🎨
+
+   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: #CCFFFF; padding: 2px">config.yml</span>
+>>>>>>> local
 
 #### Exemple de configuration simple :
 
@@ -264,6 +278,57 @@ gui:
 
 ```
 
+<<<<<<< HEAD
+=======
+### 🏆 4.Gérer tes branches comme un(e) boss 🏆
+    
+   Ajoute cette config pour**travailler plus facilement avec tes branches** : 
+
+#### Exemple de configuration simple :
+
+```yaml
+
+git:
+  branchLogCmd: "git log --graph --oneline --decorate --all"  # Affiche un log graphique 🌳
+  merging:
+    autoFastForward: true  # Auto fast-forward quand possible 🔄
+  pull:
+    mode: "rebase"  # Utiliser `git pull --rebase` pour un historique propre 🚀
+  push:
+    autoPush: true  # Push automatique après un commit 📤
+
+
+```
+
+### 📜 5.Personnaliser la vue des commits 📜
+
+   Si tu veux voir tes commits avec un affichage plus **clair et coloré**,ajoute cette ligne : 
+
+```yaml
+
+git:
+  commit:
+    signOff: true  # Ajouter un "Signed-off-by" automatiquement ✍️
+    verbose: true  # Voir les changements avant validation 👀
+  log:
+    showGraph: true  # Activer l’affichage en graphe 🏗️
+    allBranchesLogCmd: "git log --graph --oneline --decorate --all --color"  # Log coloré 🌈
+
+
+```
+
+### 🎯 En résumé 🎯
+
+   Voici un bon **combo** de configuration pour : 
+
+  ✅ **Un thème visuel amélioré**  
+  ✅ **Des raccourcis clavier personnalisés**  
+  ✅ **Une gestion des branches optimisée**  
+  ✅ **Un affichage plus clair des commits**
+
+
+  💡 **Tu peux tester cette configuration en modifiant ton**<span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml~</span>
+>>>>>>> local
 
 ---
 ## 🛠 Fonctionnalités

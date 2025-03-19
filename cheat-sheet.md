@@ -9,10 +9,10 @@
 - [🛠 Fonctionnalités](#-fonctionnalites)
 - [📄 Documentation](#-documentation)
 
+---
 
 🧐 **Git, l’outil indispensable des développeurs… mais pas toujours facile à maîtriser !**  
 
----
 
 ## 📌 **LazyGit : l’outil qui va changer votre façon d’utiliser Git**  
 

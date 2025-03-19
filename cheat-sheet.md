@@ -197,11 +197,8 @@ Si le dossier n'existe pas,crée-le:
 
 ```
 
-<<<<<<< HEAD
-### **1. Configuration minimale pour bien débuter** 📝
-=======
 ### 📝 1.Configuration minimale pour bien débuter 📝
->>>>>>> local
+
 
    Si tu veux **commencer simplement**, voici une **configuration de bade** qui améliore l'expérience utilisateur :
 
@@ -225,11 +222,8 @@ git:
 
 ```
 
-<<<<<<< HEAD
-### **2. Configurer les raccourcis clavier** ⚡⚡⚡
-=======
 ### ⚡ 2.Configurer les raccourcis clavier ⚡
->>>>>>> local
+
 
    Tu veux **accélérer ton travail** avec des **touches personnalisées**? Voici un bon setup 👇
  
@@ -253,15 +247,9 @@ keybindings:
 
 ```
 
-<<<<<<< HEAD
-### **3.Changer les couleurs pour un terminal plus stylé** 🎨
-
-   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: yellow; padding: 2px">config.yml</span>
-=======
 ### 🎨 3.Changer les couleurs pour un terminal plus stylé 🎨
 
    Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: #CCFFFF; padding: 2px">config.yml</span>
->>>>>>> local
 
 #### Exemple de configuration simple :
 
@@ -278,8 +266,6 @@ gui:
 
 ```
 
-<<<<<<< HEAD
-=======
 ### 🏆 4.Gérer tes branches comme un(e) boss 🏆
     
    Ajoute cette config pour**travailler plus facilement avec tes branches** : 
@@ -328,7 +314,7 @@ git:
 
 
   💡 **Tu peux tester cette configuration en modifiant ton**<span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml~</span>
->>>>>>> local
+
 
 ---
 ## 🛠 Fonctionnalités

@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-# Cheat-sheet Lazygit
-=======
-# 📌 Cheat-sheet Lazygit
->>>>>>> Stashed changes
 
+# 📌 Cheat-sheet Lazygit
 
 ## 📖 Table des Matières
 
@@ -12,9 +8,6 @@
 - [⚙️ Configuration](#-configuration)
 - [🛠 Fonctionnalités](#-fonctionnalites)
 - [📄 Documentation](#-documentation)
-- [✅ Tests](#-tests)
-- [📜 Licence](#-licence)
-- [📬 Contact](#-contact)
 
 
 🚀 **Boostez votre efficacité avec LazyGit : La gestion Git simplifiée !**
@@ -45,26 +38,120 @@
 
 > **En entreprise, LazyGit aide votre équipe à se concentrer pleinement sur le développement du produit en éliminant les contraintes liées à la gestion des versions.**
 
-## 🔧 Installation
 
-Pour configurer le projet localement, suivez ces étapes :
+# 💾 Installation de LazyGit
 
-1. **Cloner le référentiel :**
-   ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-projet.git
-   ```
-2. **Accéder au répertoire du projet :**
-   ```bash
-   cd nom-du-projet
-   ```
-3. **Installer les dépendances :**
-   ```bash
-   npm install  # ou yarn install
-   ```
-4. **Démarrer le serveur de développement :**
-   ```bash
-   npm start  # ou yarn start
-   ```
+Voici comment installer LazyGit sur différents systèmes d'exploitation.
+
+## 💻 Supports
+
+- [🐧 Linux](#-Installation_sur_Linux)
+- [🍎 MacOS](#-Installation_sur_macOS)
+- [🌅 Windows](#-Installation_sur_Windows)
+
+
+## 🐧 Installation sur Linux
+
+### Via le gestionnaire de paquets (recommandé)
+L'utilisation d'un gestionnaire de paquets est la méthode la plus simple et sécurisée pour installer LazyGit, car elle garantit une mise à jour automatique et une gestion des dépendances.
+
+#### Debian/Ubuntu
+Sur les distributions basées sur Debian, LazyGit est disponible via un PPA (Personal Package Archive) qui permet d'accéder aux dernières versions.
+```sh
+sudo add-apt-repository ppa:lazygit-team/release
+sudo apt update
+sudo apt install lazygit
+```
+
+#### Arch Linux (via pacman)
+Les utilisateurs d'Arch Linux peuvent l'installer directement depuis les dépôts officiels avec pacman.
+```sh
+sudo pacman -S lazygit
+```
+
+#### Fedora (via dnf)
+Sur Fedora, LazyGit est inclus dans les dépôts par défaut et peut être installé avec dnf.
+```sh
+sudo dnf install lazygit
+```
+
+#### Autres distributions
+Pour les autres distributions Linux, vous pouvez vérifier la disponibilité de LazyGit dans votre gestionnaire de paquets habituel (comme `zypper` pour openSUSE ou `nix-env` pour NixOS). Sinon, la méthode d’installation manuelle est toujours une alternative.
+
+## ❗Installation via npm, pnpm et yarn
+
+LazyGit peut également être installé en tant que dépendance via les gestionnaires de paquets JavaScript. Cette méthode est utile si vous souhaitez l'intégrer à un projet spécifique.
+
+#### Via npm
+```sh
+npm install -g lazygit
+```
+
+#### Via pnpm
+```sh
+pnpm add -g lazygit
+```
+
+#### Via yarn
+```sh
+yarn global add lazygit
+```
+
+Note : Si l'installation échoue en raison de permissions insuffisantes, vous pouvez essayer d'exécuter la commande avec `sudo` :
+```sh
+sudo npm install -g lazygit
+sudo pnpm add -g lazygit
+sudo yarn global add lazygit
+```
+⚠️ Attention, l'utilisation de `sudo` avec les gestionnaires de paquets JavaScript peut parfois causer des conflits. Il est recommandé d'utiliser `nvm` (Node Version Manager) ou d'ajuster les permissions de votre répertoire global `npm` pour éviter d'avoir besoin des droits administrateurs.
+
+### Installation manuelle (si indisponible dans les dépôts)
+Si LazyGit n'est pas disponible via votre gestionnaire de paquets, vous pouvez télécharger la dernière version et l'installer manuellement :
+```sh
+LAZYGIT_VERSION=$(curl -s https://api.github.com/repos/jesseduffield/lazygit/releases/latest | grep -Po '"tag_name": "\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/${LAZYGIT_VERSION}/lazygit_$(uname -s)_$(uname -m).tar.gz"
+tar xf lazygit.tar.gz -C /usr/local/bin lazygit
+```
+
+## 🍎 Installation sur macOS
+
+### Via Homebrew (recommandé)
+```sh
+brew install lazygit
+```
+
+### Installation manuelle
+```sh
+LAZYGIT_VERSION=$(curl -s https://api.github.com/repos/jesseduffield/lazygit/releases/latest | grep -Po '"tag_name": "\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/${LAZYGIT_VERSION}/lazygit_Darwin_x86_64.tar.gz"
+tar xf lazygit.tar.gz -C /usr/local/bin lazygit
+```
+
+## 🌅 Installation sur Windows
+
+### Via Scoop (recommandé)
+```powershell
+scoop install lazygit
+```
+
+### Via Chocolatey
+```powershell
+choco install lazygit
+```
+
+### Installation manuelle
+1. Télécharger la dernière version depuis [GitHub](https://github.com/jesseduffield/lazygit/releases/latest)
+2. Extraire l’archive et ajouter le binaire `lazygit.exe` à votre `PATH`.
+
+## ✅ Vérification de l'installation
+
+Après l’installation, vous pouvez vérifier que LazyGit est bien installé en exécutant :
+```sh
+lazygit --version
+```
+
+Si la commande affiche un numéro de version, alors LazyGit est prêt à être utilisé ! 🎉
+
 
 ## 🚀 Utilisation
 
@@ -189,11 +276,5 @@ gui:
 
 Pour une documentation détaillée, veuillez visiter : [Lien vers la documentation](https://votre-lien-documentation.com)
 
-## ✅ Tests
 
-Pour exécuter les tests, utilisez la commande suivante :
-```bash
-npm test  # ou yarn test
-```
-Assurez-vous que tous les tests passent avant le déploiement.
 

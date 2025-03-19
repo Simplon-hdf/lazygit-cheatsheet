@@ -17,35 +17,41 @@
 - [📬 Contact](#-contact)
 
 
-🚀 **Boostez votre efficacité avec LazyGit : La gestion Git simplifiée !**
+🧐 **Git, l’outil indispensable des développeurs… mais pas toujours facile à maîtriser !**  
 
 ---
 
-## 📌 **LazyGit, votre meilleur allié pour Git**
+## 📌 **LazyGit : l’outil qui va changer votre façon d’utiliser Git**  
 
-🔹 **Git est incontournable, mais ses commandes complexes peuvent vite devenir un obstacle.** **LazyGit** supprime ces difficultés en proposant une interface graphique claire, intuitive et ultra-rapide. Finies les commandes interminables : gérez vos commits ✅, fusionnez vos branches 🌿 et naviguez aisément dans l'historique 📜 de votre dépôt grâce à une expérience utilisateur optimisée.
+### **Git est essentiel, mais soyons honnêtes : ses commandes peuvent vite devenir un casse-tête.**   
 
-![LazyGit Interface](https://raw.githubusercontent.com/LucasAliasElvennope/test-stash/refs/heads/main/Exemple%20lazygit.png)
+Avec **LazyGit**, tout devient plus fluide grâce à une interface claire, intuitive et ultra-rapide. Plus besoin de retenir de longues commandes : en quelques clics, vous gérez vos commits 📝, fusionnez vos branches 🌿 et explorez l’historique 📖 de votre dépôt avec facilité.  
 
-🖥️ **LazyGit simplifie et accélère votre workflow Git !** 🚀 Fini les commandes complexes : tout est accessible en quelques touches ou clics. Que vous soyez débutant 🐣 ou développeur confirmé 🧑‍💻, LazyGit vous aide à rester productif tout en réduisant les erreurs.
+![LazyGit Interface](https://raw.githubusercontent.com/LucasAliasElvennope/test-stash/refs/heads/main/Exemple%20lazygit.png)  
 
-📌 **Consacrez moins de temps ⏳ à gérer Git, et concentrez-vous sur l’essentiel : votre code !** 💡
+🖥️ **LazyGit, c’est l’allié parfait pour simplifier et accélérer votre workflow Git !**   
+
+⚡ Que vous soyez débutant 🐣 ou développeur certifié  🏆, il vous aide à rester efficace et à réduire les erreurs.  
 
 ---
 
-## 🎯 **Pourquoi adopter LazyGit en entreprise ?**
+## 🎯 **Pourquoi adopter LazyGit en entreprise ?**  
 
-| ⚡ **Avantage**                           | 🎯 **Bénéfices pour votre équipe**                                       |
-|------------------------------------------|-------------------------------------------------------------------------|
-| 🚀 **Rapidité accrue**                   | ⏱️ Réduit considérablement le temps consacré à Git, augmentant la productivité. |
-| 🖥️ **Interface ergonomique**             | 📊 Permet une vision claire et immédiate de l’état du projet.            |
-| 🔥 **Réduction des erreurs**             | 🎯 Présente clairement les modifications, limitant ainsi les risques d’erreur. |
-| 🛠️ **Opérations complexes simplifiées**  | ⚙️ Facilite grandement les opérations telles que le rebase, cherry-pick et reset. |
-| 🤝 **Collaboration optimisée**           | 🧑‍🤝‍🧑 Renforce la fluidité et l’efficacité du travail collaboratif.      |
+| ✅ **Avantages**                           | 🎯 **Ce que ça change pour vous**                                         |
+|-------------------------------------------|--------------------------------------------------------------------------|
+| ⚡ **Un gain de temps énorme**            | ⏩ Fini les commandes trop longues, tout se fait plus rapidement.       |
+| 🖥️ **Une interface claire et intuitive**  | 👀 Visualisez immédiatement le status de votre projet et vos branches.      |
+| 🛑 **Moins d’erreurs**                    | 🔍 Affichage précis des modifications pour éviter les mauvaises manipulations. |
+| 🔄 **Des opérations complexes simplifiées** | 🎛️ Rebase, cherry-pick, reset… accessibles en quelques clics.            |
+| 🤝 **Une meilleure collaboration**        | 💬 Travail en équipe plus fluide, moins de conflits Git.                 |
 
-> **En entreprise, LazyGit aide votre équipe à se concentrer pleinement sur le développement du produit en éliminant les contraintes liées à la gestion des versions.**
+> **Avec LazyGit, votre équipe peut enfin se concentrer sur l’essentiel : coder, sans se battre avec Git.**
 
+<<<<<<< Updated upstream
 ## 🔧 Installation
+=======
+---
+>>>>>>> Stashed changes
 
 Pour configurer le projet localement, suivez ces étapes :
 

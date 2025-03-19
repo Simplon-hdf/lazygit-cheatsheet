@@ -48,18 +48,102 @@ Après l'installation, vous pouvez utiliser le projet comme suit :
   npm test  # ou yarn test
   ```
 
-## ⚙️ Configuration
+---
 
-Ce projet utilise des variables d'environnement. Créez un fichier `.env` à la racine du répertoire et ajoutez les variables requises :
+## ⚙️💻 Configuration 🚀🎉
 
-```env
-API_KEY=votre_cle_api_ici
-DB_HOST=localhost
-PORT=3000
+ **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/</span>.Voici un guide **complet et visuel** pour le configurer efficacement.
+
+### 📂 1️⃣ **Emplacement des fichiers de configuration**
+
+| Fichier                  | 📌 Chemin                                                                                    |
+| :----------------------: | :------------------------------------------------------------------------------------------: |
+| Linux                    | <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml</span> |
+| macOS                    | <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml</span> |
+| Windows (Git Bash, WSL)  | <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml</span> |
+| Windows (CMD/Powershell) | <span style="background-color: #CCFFFF; padding: 2px">%APPDATA%\lazygit\config.yml</span>  |
+
+🔹 **Windows** : <span style="background-color: #CCFFFF; padding: 2px">APPDATA</span>est généralement <span style="background-color: #CCFFFF; padding: 2px">C:\Users\NomUtilisateur\AppData\Roaming\lazygit\</span>./br
+
+🔹 **WSL** : (Windows Subsystem for linux)suit la même logique que **Linux**(<span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/</span>)/br
+Si le dossier n'existe pas,crée-le:
+```sh
+
+ mkdir -p ~/.config/lazygit
+
+ touch    ~/.config/lazygit/config.yml
+
 ```
 
-Assurez-vous de remplacer les valeurs par vos configurations réelles.
+### **1. Configuration minimale pour bien débuter** 📝
 
+   Si tu veux **commencer simplement**, voici une **configuration de bade** qui améliore l'expérience utilisateur :
+
+#### Exemple de configuration simple :
+
+``` yaml
+
+gui:
+  showIcons: true  # Afficher des icônes sympas 🎨
+  theme:
+    lightTheme: false  # Mode sombre activé 🌙
+    activeBorderColor: [blue, bold]  # Bordure active en bleu 🔵
+    inactiveBorderColor: [white]  # Bordure inactive en blanc ⚪
+  mouseEvents: false  # Désactiver la souris pour un usage full clavier ⌨️
+
+git:
+  paging:
+    colorArg: always  # Garde les couleurs dans les logs Git 🌈
+    pager: delta --dark  # Utiliser Delta pour des diffs stylés 😍
+
+
+```
+
+### **2. Configurer les raccourcis clavier** ⚡⚡⚡
+
+   Tu veux **accélérer ton travail** avec des **touches personnalisées**? Voici un bon setup 👇
+ 
+
+#### Exemple de configuration simple :
+
+``` yaml
+
+# Modifie les touches de raccourcis et les options Git
+keybindings:
+  universal:
+    quit: "q"  # Quitter avec "q" 🏃
+    refresh: "r"  # Rafraîchir avec "r" 🔄
+    return: "<esc>"  # Retourner en arrière avec "Échap" ⬅️
+    optionMenu: "m"  # Ouvrir un menu avec "m" 📜
+  commits:
+    moveDownCommit: "<down>"  # Aller au commit suivant 🔽
+    moveUpCommit: "<up>"  # Aller au commit précédent 🔼
+    amendToCommit: "A"  # Modifier le dernier commit 🛠️
+
+
+```
+
+### **3.Changer les couleurs pour un terminal plus stylé** 🎨
+
+   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: yellow; padding: 2px">config.yml</span>
+
+#### Exemple de configuration simple :
+
+``` yaml
+
+gui:
+  theme:
+    activeBorderColor: [cyan, bold]  # Bordures actives en cyan ✨
+    inactiveBorderColor: [gray]  # Bordures inactives en gris 🕶️
+    selectedLineBgColor: [black]  # Fond noir pour l'élément sélectionné 🖤
+    selectedRangeBgColor: [blue]  # Fond bleu pour une sélection multiple 🔵
+    unstagedChangesColor: [yellow]  # Modifications non indexées en jaune 🌟
+    stagedChangesColor: [green]  # Modifications indexées en vert 🍀
+
+```
+
+
+---
 ## 🛠 Fonctionnalités
 
 - ✅ Fonctionnalité 1 - Brève description

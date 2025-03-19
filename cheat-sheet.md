@@ -61,7 +61,7 @@ Pour configurer le projet localement, suivez ces étapes :
 
 - ***Push des commits:***  
    - Allez dans le panneau "Local branches"  
-   - S'il y a une branche distante configurée, appuyez sur *p* pour faire un push
+   - S'il y a une branche distante configurée, appuyez sur *P* pour faire un push
 
 **3. Gestion des Branches:**  
   
@@ -89,7 +89,7 @@ Pour configurer le projet localement, suivez ces étapes :
 
 | Touche    | Action                                                        | 
 |-----------|---------------------------------------------------------------|
-| `e`       | Permet d'ouvrir et modifier le fichier de configuration Lazygit                                                                     |
+| `e`       | Permet d'ouvrir et modifier le fichier de configuration Lazygit|
 | `u`       | Verifie si une misa à jour est disponible                     |
 | `Entrer`  | Permet de switch vers les dépots récents                      |
 | `Echap`   | Ferme ou annule l'action en cours                             |
@@ -101,41 +101,42 @@ Pour configurer le projet localement, suivez ces étapes :
 | `Espace`  | Permet de staguer ou desstaguer un fichier                    |
 | `c`       | Effectuer un commit sur un fichier stagué                     |
 | `e`       | Permet d'éditer un fichier dans l'éditeur externe             |
-| `s`       | Mettre de côté tous les changements non validés dans le repertoire de travail                                                                     | 
+| `s`       | Mettre de côté tous les changements non validés dans le repertoire de travail| 
 | `d`       | Permet d'annuler ou supprimer les modifications non validées  |
-| `D`       | Permet de réinitialiser les fichiers du répertoire de travail, en annulant les changements locaux et en ramenant les fichiers à l'état du dernier commit                                                                      |
+| `D`       | Permet de réinitialiser les fichiers du répertoire de travail, en annulant les changements locaux et en ramenant les fichiers à l'état du dernier commit|
 
 **3. Local branches**
 
 | Touche    | Action                                                        |
 |-----------|---------------------------------------------------------------|
-| `Espace`  | Permet de changer de branche en faisant un checkout sur la branche locale sélectionnée                                                         |
+| `Espace`  | Permet de changer de branche en faisant un checkout sur la branche locale sélectionnée|
 | `n`       | Permet de créer une nouvelle branche                          |
 | `d`       | Supprime une branche locale                                   |
 | `r`       | Rebase la branche locale                                      | 
-| `g`       | Réinitialiser la branche locale avec plusieurs options (soft, mixed, ou hard)                                               |
-| `u`       | Permet d'afficher et de gérer les options de l'upstream pour la branche locale sélectionnée                                                 |
+| `g`       | Réinitialiser la branche locale avec plusieurs options (soft, mixed, ou hard)|
+| `u`       | Permet d'afficher et de gérer les options de l'upstream pour la branche locale sélectionnée|
 
 **4. Commits**
 
 | Touche    | Action                                                        |
 |-----------|---------------------------------------------------------------|
-| `r`       | Réécrire le message d'un commit                               |
-| `d`       | Supprimer le commit sélectionné    |
-| `e`       | Modifier le commit sélectionné     |
-| `A`       | Amender le dernier commit avec les changements en cours      | 
-| `Espace`  | Basculer sur un commit spécifique       |
-| `g`       | Permet de choisir différrentes options de réinitialisation (soft, mixed ou hard reset)              |
+| `r`       | Réécrire le message d'un commit|
+| `d`       | Supprimer le commit sélectionné|
+| `e`       | Modifier le commit sélectionné|
+| `A`       | Amender le dernier commit avec les changements en cours| 
+| `Espace`  | Basculer sur un commit spécifique|
+| `g`       | Permet de choisir différrentes options de réinitialisation (soft, mixed ou hard reset)|
+| `P`       | Push, envoie les commits vers le dépôt distant |
 
 **5. Stash**
 
 | Touche    | Action                                                        |
 |-----------|---------------------------------------------------------------|
-| `s`       | Place les modifications non validées dans un stash temporaire             |
-| `d`       | Supprimer stash spécifique    |
-| `p`       | Applique et supprime le stash |
-| `r`       | Renommer le stash    | 
-| `e`       | Editer un stash dans l'editeur  |
+| `s`       | Place les modifications non validées dans un stash temporaire|
+| `d`       | Supprimer stash spécifique|
+| `p`       | Applique et supprime le stash|
+| `r`       | Renommer le stash| 
+| `e`       | Editer un stash dans l'editeur|
 
 
 ## ⚙️ Configuration

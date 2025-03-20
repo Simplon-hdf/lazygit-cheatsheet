@@ -10,32 +10,7 @@
 - [📄 Documentation](#-documentation)
 
 ---
-
 🧐 **Git, l’outil indispensable des développeurs… mais pas toujours facile à maîtriser !**  
-<<<<<<< Updated upstream
-
-
-## 📌 **LazyGit : l’outil qui va changer votre façon d’utiliser Git**  
-
-🔹 **Git est essentiel, mais soyons honnêtes : ses commandes peuvent vite devenir un casse-tête.** Avec **LazyGit**, tout devient plus fluide grâce à une interface claire, intuitive et ultra-rapide. Plus besoin de retenir des commandes interminables : en quelques clics, vous gérez vos commits 📝, fusionnez vos branches 🌿 et explorez l’historique 📖 de votre dépôt avec une facilité déconcertante.  
-
-![LazyGit Interface](https://raw.githubusercontent.com/LucasAliasElvennope/test-stash/refs/heads/main/Exemple%20lazygit.png)  
-
-🖥️ **LazyGit, c’est l’allié parfait pour simplifier et accélérer votre workflow Git !** ⚡ Que vous soyez débutant 🐣 ou développeur chevronné 🏆, il vous aide à rester efficace et à réduire les erreurs.  
-
----
-
-## 🎯 **Pourquoi adopter LazyGit en entreprise ?**  
-
-| ✅ **Avantages**                           | 🎯 **Ce que ça change pour vous**                                         |
-|-------------------------------------------|--------------------------------------------------------------------------|
-| ⚡ **Un gain de temps énorme**            | ⏩ Fini les commandes interminables, tout se fait plus rapidement.       |
-| 🖥️ **Une interface claire et intuitive**  | 👀 Visualisez immédiatement l’état de votre projet et vos branches.      |
-| 🛑 **Moins d’erreurs**                    | 🔍 Affichage précis des modifications pour éviter les mauvaises manipulations. |
-| 🔄 **Des opérations complexes simplifiées** | 🎛️ Rebase, cherry-pick, reset… accessibles en quelques clics.            |
-| 🤝 **Une meilleure collaboration**        | 💬 Travail en équipe plus fluide, moins de conflits Git.                 |
-
-=======
 
 ---
 
@@ -59,8 +34,8 @@
 | 🔄 **Des opérations complexes simplifiées** | 🎛️ Rebase, cherry-pick, reset… accessibles en quelques clics.            |
 | 🤝 **Une meilleure collaboration**        | 💬 Travail en équipe plus fluide, moins de conflits Git.                 |
 
->>>>>>> Stashed changes
 > **Avec LazyGit, votre équipe peut enfin se concentrer sur l’essentiel : coder, sans se battre avec Git.**  
+
 
 
 # 💾 Installation de LazyGit

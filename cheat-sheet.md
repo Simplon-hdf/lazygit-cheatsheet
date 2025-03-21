@@ -137,8 +137,8 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 #### ⌨️ Navigation dans l'interface:  
    - Utilisez les touches fléchées pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
-   - La touche Entrée sert à entrer dans un panneau ou à exécuter une action  
-   - La touche q permet de quitter Lazygit
+   - La touche _Entrée_ sert à entrer dans un panneau ou à exécuter une action  
+   - La touche _q_ permet de quitter Lazygit
 
 ### 2. Flux de Travail de Commit Standard:
 
@@ -148,7 +148,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
   
 #### 📥 Ajout de fichiers au staging (indexation):  
    - Sélectionnez les fichiers à ajouter avec les touches fléchées  
-   - Appuyez sur espace pour les ajouter au staging  
+   - Appuyez sur _espace_ pour les ajouter au staging  
     
 #### 📝 Création d'un commit:  
    - Allez dans le panneau "Commits"  
@@ -162,11 +162,11 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 ### 3. Gestion des Branches:  
   
 #### ➕ Création d'une nouvelle branche:  
-   - Dans le panneau "Local branches", appuyez sur n  
+   - Dans le panneau "Local branches", appuyez sur _n_  
    - Entrez le nom de la nouvelle branche  
 #### 🔄 Changement de branche (checkout):  
    - Sélectionnez la branche souhaitée  
-   - Appuyez sur Entrée  
+   - Appuyez sur _Entrée_  
 #### 🔀 Fusion (merge) de branches:  
    - Assurez-vous d'être sur la branche dans laquelle vous souhaitez fusionner  
    - Sélectionnez la branche à fusionner  

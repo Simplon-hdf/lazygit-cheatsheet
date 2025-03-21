@@ -236,7 +236,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 
 
-## ⚙️💻 Personnalisation 💻⚙️
+## ⚙️ Personnalisation
 
 
  **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans _~/.config/lazygit/_.Voici un guide **complet et visuel** pour le configurer efficacement.
@@ -416,7 +416,7 @@ git:
 - 🎛️ Expérience utilisateur fluide et intuitive
 - 🔖 Navigation rapide et efficace
 
-## 🛠️ Fonctionnalités avancées
+## 🛠️ Fonctions avancées
 
 - 🔍 Support intégré pour visualiser les différences clairement
 - 📊 Historique interactif et lisible des logs

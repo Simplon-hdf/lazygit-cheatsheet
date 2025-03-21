@@ -9,34 +9,32 @@
 - [🛠 Fonctionnalités](#-fonctionnalites)
 - [📄 Documentation](#-documentation)
 
-
-🚀 **Boostez votre efficacité avec LazyGit : La gestion Git simplifiée !**
+---
+🧐 **Git, l’outil indispensable des développeurs… mais pas toujours facile à maîtriser !**  
 
 ---
 
-## 📌 **LazyGit, votre meilleur allié pour Git**
+## 📌 **LazyGit : l’outil qui va changer votre façon d’utiliser Git**  
 
-🔹 **Git est incontournable, mais ses commandes complexes peuvent vite devenir un obstacle.** **LazyGit** supprime ces difficultés en proposant une interface graphique claire, intuitive et ultra-rapide. Finies les commandes interminables : gérez vos commits ✅, fusionnez vos branches 🌿 et naviguez aisément dans l'historique 📜 de votre dépôt grâce à une expérience utilisateur optimisée.
+🔹 **Git est essentiel, mais soyons honnêtes : ses commandes peuvent vite devenir un casse-tête.** Avec **LazyGit**, tout devient plus fluide grâce à une interface claire, intuitive et ultra-rapide. Plus besoin de retenir des commandes interminables : en quelques clics, vous gérez vos commits 📝, fusionnez vos branches 🌿 et explorez l’historique 📖 de votre dépôt avec une facilité déconcertante.  
 
-![LazyGit Interface](https://raw.githubusercontent.com/LucasAliasElvennope/test-stash/refs/heads/main/Exemple%20lazygit.png)
+![LazyGit Interface](https://raw.githubusercontent.com/LucasAliasElvennope/test-stash/refs/heads/main/Exemple%20lazygit.png)  
 
-🖥️ **LazyGit simplifie et accélère votre workflow Git !** 🚀 Fini les commandes complexes : tout est accessible en quelques touches ou clics. Que vous soyez débutant 🐣 ou développeur confirmé 🧑‍💻, LazyGit vous aide à rester productif tout en réduisant les erreurs.
-
-📌 **Consacrez moins de temps ⏳ à gérer Git, et concentrez-vous sur l’essentiel : votre code !** 💡
+🖥️ **LazyGit, c’est l’allié parfait pour simplifier et accélérer votre workflow Git !** ⚡ Que vous soyez débutant 🐣 ou développeur chevronné 🏆, il vous aide à rester efficace et à réduire les erreurs.  
 
 ---
 
-## 🎯 **Pourquoi adopter LazyGit en entreprise ?**
+## 🎯 **Pourquoi adopter LazyGit en entreprise ?**  
 
-| ⚡ **Avantage**                           | 🎯 **Bénéfices pour votre équipe**                                       |
-|------------------------------------------|-------------------------------------------------------------------------|
-| 🚀 **Rapidité accrue**                   | ⏱️ Réduit considérablement le temps consacré à Git, augmentant la productivité. |
-| 🖥️ **Interface ergonomique**             | 📊 Permet une vision claire et immédiate de l’état du projet.            |
-| 🔥 **Réduction des erreurs**             | 🎯 Présente clairement les modifications, limitant ainsi les risques d’erreur. |
-| 🛠️ **Opérations complexes simplifiées**  | ⚙️ Facilite grandement les opérations telles que le rebase, cherry-pick et reset. |
-| 🤝 **Collaboration optimisée**           | 🧑‍🤝‍🧑 Renforce la fluidité et l’efficacité du travail collaboratif.      |
+| ✅ **Avantages**                           | 🎯 **Ce que ça change pour vous**                                         |
+|-------------------------------------------|--------------------------------------------------------------------------|
+| ⚡ **Un gain de temps énorme**            | ⏩ Fini les commandes interminables, tout se fait plus rapidement.       |
+| 🖥️ **Une interface claire et intuitive**  | 👀 Visualisez immédiatement l’état de votre projet et vos branches.      |
+| 🛑 **Moins d’erreurs**                    | 🔍 Affichage précis des modifications pour éviter les mauvaises manipulations. |
+| 🔄 **Des opérations complexes simplifiées** | 🎛️ Rebase, cherry-pick, reset… accessibles en quelques clics.            |
+| 🤝 **Une meilleure collaboration**        | 💬 Travail en équipe plus fluide, moins de conflits Git.                 |
 
-> **En entreprise, LazyGit aide votre équipe à se concentrer pleinement sur le développement du produit en éliminant les contraintes liées à la gestion des versions.**
+> **Avec LazyGit, votre équipe peut enfin se concentrer sur l’essentiel : coder, sans se battre avec Git.**  
 
 
 # 💾 Installation de LazyGit
@@ -161,6 +159,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
    - Ouvrez votre terminal  
    - Tapez lazygit et appuyez sur *Entrée*
 
+
 - ***Navigation dans l'interface:***  
    - Utilisez les *touches fléchées* pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
    - La touche *Entrée* sert à entrer dans un panneau ou à exécuter une action  
@@ -263,6 +262,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 ---
 
+>>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 ## ⚙️💻 Configuration 🚀🎉
 
  **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/</span>.Voici un guide **complet et visuel** pour le configurer efficacement.
@@ -288,10 +288,8 @@ Si le dossier n'existe pas,crée-le:
 
 ```
 
-### 📝 1.Configuration minimale pour bien débuter 📝
+### **1. Configuration minimale pour bien débuter** 📝
 
-
-   Si tu veux **commencer simplement**, voici une **configuration de bade** qui améliore l'expérience utilisateur :
 
 #### Exemple de configuration simple :
 
@@ -313,7 +311,7 @@ git:
 
 ```
 
-### ⚡ 2.Configurer les raccourcis clavier ⚡
+### **2. Configurer les raccourcis clavier** ⚡⚡⚡
 
 
    Tu veux **accélérer ton travail** avec des **touches personnalisées**? Voici un bon setup 👇
@@ -338,9 +336,10 @@ keybindings:
 
 ```
 
-### 🎨 3.Changer les couleurs pour un terminal plus stylé 🎨
+### **3.Changer les couleurs pour un terminal plus stylé** 🎨
 
-   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: #CCFFFF; padding: 2px">config.yml</span>
+   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: yellow; padding: 2px">config.yml</span>
+
 
 #### Exemple de configuration simple :
 
@@ -406,6 +405,7 @@ git:
 
   💡 **Tu peux tester cette configuration en modifiant ton**<span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml~</span>
 
+>>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 
 ---
 ## 🛠 Fonctionnalités

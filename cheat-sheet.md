@@ -37,7 +37,6 @@
 > **Avec LazyGit, votre équipe peut enfin se concentrer sur l’essentiel : coder, sans se battre avec Git.**  
 
 
-
 # 💾 Installation de LazyGit
 
 Voici comment installer LazyGit sur différents systèmes d'exploitation.
@@ -154,23 +153,119 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 ## 🚀 Utilisation
 
-Après l'installation, vous pouvez utiliser le projet comme suit :
+**1.  Démarrage et Navigation de Base:**
 
-- **Exécuter en mode développement :**
-  ```bash
-  npm run dev  # ou yarn dev
-  ```
-- **Construire pour la production :**
-  ```bash
-  npm run build  # ou yarn build
-  ```
-- **Exécuter les tests :**
-  ```bash
-  npm test  # ou yarn test
-  ```
+- ***Lancement:***  
+   - Ouvrez votre terminal  
+   - Tapez lazygit et appuyez sur *Entrée*
+
+<<<<<<< HEAD
+---
+
+=======
+- ***Navigation dans l'interface:***  
+   - Utilisez les *touches fléchées* pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
+   - La touche *Entrée* sert à entrer dans un panneau ou à exécuter une action  
+   - La touche *q* permet de quitter Lazygit
+
+**2. Flux de Travail de Commit Standard:**
+
+- ***Visualisation des changements:***  
+   - Dans le panneau "Files" vous verrez les fichiers modifiés  
+   - Utilisez *Entrée* sur un fichier pour voir les modifications spécifiques  
+  
+- ***Ajout de fichiers au staging (indexation):***  
+   - Sélectionnez les fichiers à ajouter avec les *touches fléchées*  
+   - Appuyez sur *espace* pour les ajouter au staging  
+    
+- ***Création d'un commit:***  
+   - Allez dans le panneau "Commits"  
+   - Appuyez sur *c* pour ouvrir l'éditeur de message de commit  
+   - Écrivez votre message de commit et enregistrez  
+
+- ***Push des commits:***  
+   - Allez dans le panneau "Local branches"  
+   - S'il y a une branche distante configurée, appuyez sur *P* pour faire un push
+
+**3. Gestion des Branches:**  
+  
+- ***Création d'une nouvelle branche:***  
+   - Dans le panneau "Local branches", appuyez sur *n*  
+   - Entrez le nom de la nouvelle branche  
+- ***Changement de branche (checkout):***  
+   - Sélectionnez la branche souhaitée  
+   - Appuyez sur *Entrée*  
+- ***Fusion (merge) de branches:***  
+   - Assurez-vous d'être sur la branche dans laquelle vous souhaitez fusionner  
+   - Sélectionnez la branche à fusionner  
+   - appuyez sur *m* pour réaliser la fusion
+
+**4. Conflits:**  
+  
+- ***Identification des conflits:***  
+   - Lazygit affichera les fichiers en conflit dans "Files"  
+- ***Résolution des conflits:***  
+   - Utilisez votre éditeur de code pour résoudre les conflits dans les fichiers  
+   - Une fois résolus, ajoutez les fichiers modifiés au staging (espace)   
+   - Continuez la procédure de merge en validant avec la touche *c* dans le panneau commit    
+
+**1. Onglet Status**
+
+| Touche    | Action                                                        | 
+|-----------|---------------------------------------------------------------|
+| `e`       | Permet d'ouvrir et modifier le fichier de configuration Lazygit|
+| `u`       | Verifie si une misa à jour est disponible                     |
+| `Entrer`  | Permet de switch vers les dépots récents                      |
+| `Echap`   | Ferme ou annule l'action en cours                             |
+
+**2. Files**
+
+| Touche    | Action                                                        |
+|-----------|---------------------------------------------------------------|
+| `Espace`  | Permet de staguer ou desstaguer un fichier                    |
+| `c`       | Effectuer un commit sur un fichier stagué                     |
+| `e`       | Permet d'éditer un fichier dans l'éditeur externe             |
+| `s`       | Mettre de côté tous les changements non validés dans le repertoire de travail| 
+| `d`       | Permet d'annuler ou supprimer les modifications non validées  |
+| `D`       | Permet de réinitialiser les fichiers du répertoire de travail, en annulant les changements locaux et en ramenant les fichiers à l'état du dernier commit|
+
+**3. Local branches**
+
+| Touche    | Action                                                        |
+|-----------|---------------------------------------------------------------|
+| `Espace`  | Permet de changer de branche en faisant un checkout sur la branche locale sélectionnée|
+| `n`       | Permet de créer une nouvelle branche                          |
+| `d`       | Supprime une branche locale                                   |
+| `r`       | Rebase la branche locale                                      | 
+| `g`       | Réinitialiser la branche locale avec plusieurs options (soft, mixed, ou hard)|
+| `u`       | Permet d'afficher et de gérer les options de l'upstream pour la branche locale sélectionnée|
+
+**4. Commits**
+
+| Touche    | Action                                                        |
+|-----------|---------------------------------------------------------------|
+| `r`       | Réécrire le message d'un commit|
+| `d`       | Supprimer le commit sélectionné|
+| `e`       | Modifier le commit sélectionné|
+| `A`       | Amender le dernier commit avec les changements en cours| 
+| `Espace`  | Basculer sur un commit spécifique|
+| `g`       | Permet de choisir différrentes options de réinitialisation (soft, mixed ou hard reset)|
+| `P`       | Push, envoie les commits vers le dépôt distant |
+
+**5. Stash**
+
+| Touche    | Action                                                        |
+|-----------|---------------------------------------------------------------|
+| `s`       | Place les modifications non validées dans un stash temporaire|
+| `d`       | Supprimer stash spécifique|
+| `p`       | Applique et supprime le stash|
+| `r`       | Renommer le stash| 
+| `e`       | Editer un stash dans l'editeur|
+
 
 ---
 
+>>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 ## ⚙️💻 Configuration 🚀🎉
 
  **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/</span>.Voici un guide **complet et visuel** pour le configurer efficacement.
@@ -196,8 +291,14 @@ Si le dossier n'existe pas,crée-le:
 
 ```
 
+<<<<<<< HEAD
 ### **1. Configuration minimale pour bien débuter** 📝
 
+=======
+### 📝 1.Configuration minimale pour bien débuter 📝
+
+
+>>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
    Si tu veux **commencer simplement**, voici une **configuration de bade** qui améliore l'expérience utilisateur :
 
 #### Exemple de configuration simple :
@@ -220,7 +321,12 @@ git:
 
 ```
 
+<<<<<<< HEAD
 ### **2. Configurer les raccourcis clavier** ⚡⚡⚡
+=======
+### ⚡ 2.Configurer les raccourcis clavier ⚡
+
+>>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 
    Tu veux **accélérer ton travail** avec des **touches personnalisées**? Voici un bon setup 👇
  
@@ -244,9 +350,15 @@ keybindings:
 
 ```
 
+<<<<<<< HEAD
 ### **3.Changer les couleurs pour un terminal plus stylé** 🎨
 
    Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: yellow; padding: 2px">config.yml</span>
+=======
+### 🎨 3.Changer les couleurs pour un terminal plus stylé 🎨
+
+   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: #CCFFFF; padding: 2px">config.yml</span>
+>>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 
 #### Exemple de configuration simple :
 
@@ -263,6 +375,58 @@ gui:
 
 ```
 
+<<<<<<< HEAD
+=======
+### 🏆 4.Gérer tes branches comme un(e) boss 🏆
+    
+   Ajoute cette config pour**travailler plus facilement avec tes branches** : 
+
+#### Exemple de configuration simple :
+
+```yaml
+
+git:
+  branchLogCmd: "git log --graph --oneline --decorate --all"  # Affiche un log graphique 🌳
+  merging:
+    autoFastForward: true  # Auto fast-forward quand possible 🔄
+  pull:
+    mode: "rebase"  # Utiliser `git pull --rebase` pour un historique propre 🚀
+  push:
+    autoPush: true  # Push automatique après un commit 📤
+
+
+```
+
+### 📜 5.Personnaliser la vue des commits 📜
+
+   Si tu veux voir tes commits avec un affichage plus **clair et coloré**,ajoute cette ligne : 
+
+```yaml
+
+git:
+  commit:
+    signOff: true  # Ajouter un "Signed-off-by" automatiquement ✍️
+    verbose: true  # Voir les changements avant validation 👀
+  log:
+    showGraph: true  # Activer l’affichage en graphe 🏗️
+    allBranchesLogCmd: "git log --graph --oneline --decorate --all --color"  # Log coloré 🌈
+
+
+```
+
+### 🎯 En résumé 🎯
+
+   Voici un bon **combo** de configuration pour : 
+
+  ✅ **Un thème visuel amélioré**  
+  ✅ **Des raccourcis clavier personnalisés**  
+  ✅ **Une gestion des branches optimisée**  
+  ✅ **Un affichage plus clair des commits**
+
+
+  💡 **Tu peux tester cette configuration en modifiant ton**<span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml~</span>
+
+>>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 
 ---
 ## 🛠 Fonctionnalités

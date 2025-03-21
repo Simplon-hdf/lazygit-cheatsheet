@@ -42,9 +42,10 @@ Voici comment installer LazyGit sur différents systèmes d'exploitation.
 
 ## 💻 Différents Supports/Systèmes d'exploitations
 
-- [🐧 Linux](#-Installation_sur_Linux)
-- [🍎 MacOS](#-Installation_sur_macOS)
-- [🌅 Windows](#-Installation_sur_Windows)
+- [🐧 Linux](#-comment-installer-lazygit-sur-linux)
+- [🍎 MacOS](#-comment-installer-lazygit-sur-macos)
+- [🌅 Windows](#-comment-installer-lazygit-sur-windows)
+
 
 
 ## 🐧 Comment installer LazyGit sur Linux

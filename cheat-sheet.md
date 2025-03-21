@@ -243,7 +243,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
  **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans _~/.config/lazygit/_.Voici un guide **complet et visuel** pour le configurer efficacement.
 
-### 📂 1️⃣ Emplacement des fichiers de configuration
+### 📂  Emplacement des fichiers de configuration
 
 | Fichier                  | 📌 Chemin                     |
 | :----------------------: | :---------------------------: |

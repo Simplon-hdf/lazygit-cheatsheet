@@ -5,8 +5,8 @@
 
 - [🔧 Installation](#-installation-de-lazygit)
 - [🚀 Utilisation](#-utilisation)
-- [⚙️ Configuration](#-configuration)
-- [🛠 Fonctionnalités](#-fonctionnalites)
+- [⚙️ Configuration](#configuration-)
+- [🛠 Fonctionnalités](#fonctionnalites)
 
 ---
 🧐 **Git, l’outil indispensable des développeurs… mais pas toujours facile à maîtriser !**  

@@ -133,7 +133,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 #### 🚀 Lancement:  
    - Ouvrez votre terminal  
-   - Tapez lazygit et appuyez sur Entrée
+   - Tapez lazygit et appuyez sur _Entrée_
 
 #### ⌨️ Navigation dans l'interface:  
    - Utilisez les touches fléchées pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
@@ -144,7 +144,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 #### 👁️‍🗨️ Visualisation des changements:  
    - Dans le panneau "Files" vous verrez les fichiers modifiés  
-   - Utilisez Entrée sur un fichier pour voir les modifications spécifiques  
+   - Utilisez _Entrée_ sur un fichier pour voir les modifications spécifiques  
   
 #### 📥 Ajout de fichiers au staging (indexation):  
    - Sélectionnez les fichiers à ajouter avec les touches fléchées  
@@ -152,12 +152,12 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
     
 #### 📝 Création d'un commit:  
    - Allez dans le panneau "Commits"  
-   - Appuyez sur c pour ouvrir l'éditeur de message de commit  
+   - Appuyez sur _c_ pour ouvrir l'éditeur de message de commit  
    - Écrivez votre message de commit et enregistrez  
 
 #### ⬆️ Push des commits:  
    - Allez dans le panneau "Local branches"  
-   - S'il y a une branche distante configurée, appuyez sur P pour faire un push
+   - S'il y a une branche distante configurée, appuyez sur _P_ pour faire un push
 
 ### 3. Gestion des Branches:  
   
@@ -170,7 +170,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 #### 🔀 Fusion (merge) de branches:  
    - Assurez-vous d'être sur la branche dans laquelle vous souhaitez fusionner  
    - Sélectionnez la branche à fusionner  
-   - appuyez sur m pour réaliser la fusion
+   - appuyez sur _m_ pour réaliser la fusion
 
 ### 4. Conflits:  
   
@@ -179,7 +179,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 #### 🛠️ Résolution des conflits:  
    - Utilisez votre éditeur de code pour résoudre les conflits dans les fichiers  
    - Une fois résolus, ajoutez les fichiers modifiés au staging (espace)   
-   - Continuez la procédure de merge en validant avec la touche c dans le panneau commit    
+   - Continuez la procédure de merge en validant avec la touche _c_ dans le panneau commit    
 
 ## 🔎 Onglet Status
 

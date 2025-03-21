@@ -3,54 +3,51 @@
 
 ## 📖 Table des Matières
 
-- [🔧 Installation](#-installation)
+- [🔧 Installation](#-installation-de-lazygit)
 - [🚀 Utilisation](#-utilisation)
 - [⚙️ Configuration](#-configuration)
 - [🛠 Fonctionnalités](#-fonctionnalites)
-- [📄 Documentation](#-documentation)
 
-
-🚀 **Boostez votre efficacité avec LazyGit : La gestion Git simplifiée !**
+---
+🧐 **Git, l’outil indispensable des développeurs… mais pas toujours facile à maîtriser !**  
 
 ---
 
-## 📌 **LazyGit, votre meilleur allié pour Git**
+## 📌 **LazyGit : l’outil qui va changer votre façon d’utiliser Git**  
 
-🔹 **Git est incontournable, mais ses commandes complexes peuvent vite devenir un obstacle.** **LazyGit** supprime ces difficultés en proposant une interface graphique claire, intuitive et ultra-rapide. Finies les commandes interminables : gérez vos commits ✅, fusionnez vos branches 🌿 et naviguez aisément dans l'historique 📜 de votre dépôt grâce à une expérience utilisateur optimisée.
+🔹 **Git est essentiel, mais soyons honnêtes : ses commandes peuvent vite devenir un casse-tête.** Avec **LazyGit**, tout devient plus fluide grâce à une interface claire, intuitive et ultra-rapide. Plus besoin de retenir des commandes interminables : en quelques clics, vous gérez vos commits 📝, fusionnez vos branches 🌿 et explorez l’historique 📖 de votre dépôt avec une facilité déconcertante.  
 
-![LazyGit Interface](https://raw.githubusercontent.com/LucasAliasElvennope/test-stash/refs/heads/main/Exemple%20lazygit.png)
+![LazyGit Interface](https://raw.githubusercontent.com/LucasAliasElvennope/test-stash/refs/heads/main/Exemple%20lazygit.png)  
 
-🖥️ **LazyGit simplifie et accélère votre workflow Git !** 🚀 Fini les commandes complexes : tout est accessible en quelques touches ou clics. Que vous soyez débutant 🐣 ou développeur confirmé 🧑‍💻, LazyGit vous aide à rester productif tout en réduisant les erreurs.
-
-📌 **Consacrez moins de temps ⏳ à gérer Git, et concentrez-vous sur l’essentiel : votre code !** 💡
+🖥️ **LazyGit, c’est l’allié parfait pour simplifier et accélérer votre workflow Git !** ⚡ Que vous soyez débutant 🐣 ou développeur chevronné 🏆, il vous aide à rester efficace et à réduire les erreurs.  
 
 ---
 
-## 🎯 **Pourquoi adopter LazyGit en entreprise ?**
+## 🎯 **Pourquoi adopter LazyGit en entreprise ?**  
 
-| ⚡ **Avantage**                           | 🎯 **Bénéfices pour votre équipe**                                       |
-|------------------------------------------|-------------------------------------------------------------------------|
-| 🚀 **Rapidité accrue**                   | ⏱️ Réduit considérablement le temps consacré à Git, augmentant la productivité. |
-| 🖥️ **Interface ergonomique**             | 📊 Permet une vision claire et immédiate de l’état du projet.            |
-| 🔥 **Réduction des erreurs**             | 🎯 Présente clairement les modifications, limitant ainsi les risques d’erreur. |
-| 🛠️ **Opérations complexes simplifiées**  | ⚙️ Facilite grandement les opérations telles que le rebase, cherry-pick et reset. |
-| 🤝 **Collaboration optimisée**           | 🧑‍🤝‍🧑 Renforce la fluidité et l’efficacité du travail collaboratif.      |
+| ✅ **Avantages**                           | 🎯 **Ce que ça change pour vous**                                         |
+|-------------------------------------------|--------------------------------------------------------------------------|
+| ⚡ **Un gain de temps énorme**            | ⏩ Fini les commandes interminables, tout se fait plus rapidement.       |
+| 🖥️ **Une interface claire et intuitive**  | 👀 Visualisez immédiatement l’état de votre projet et vos branches.      |
+| 🛑 **Moins d’erreurs**                    | 🔍 Affichage précis des modifications pour éviter les mauvaises manipulations. |
+| 🔄 **Des opérations complexes simplifiées** | 🎛️ Rebase, cherry-pick, reset… accessibles en quelques clics.            |
+| 🤝 **Une meilleure collaboration**        | 💬 Travail en équipe plus fluide, moins de conflits Git.                 |
 
-> **En entreprise, LazyGit aide votre équipe à se concentrer pleinement sur le développement du produit en éliminant les contraintes liées à la gestion des versions.**
+> **Avec LazyGit, votre équipe peut enfin se concentrer sur l’essentiel : coder, sans se battre avec Git.**  
 
 
-# 💾 Installation de LazyGit
+## 💾 **Installation de LazyGit**
 
 Voici comment installer LazyGit sur différents systèmes d'exploitation.
 
-## 💻 Supports
+## 💻 Différents Supports/Systèmes d'exploitations
 
 - [🐧 Linux](#-Installation_sur_Linux)
 - [🍎 MacOS](#-Installation_sur_macOS)
 - [🌅 Windows](#-Installation_sur_Windows)
 
 
-## 🐧 Installation sur Linux
+## 🐧 Comment installer LazyGit sur Linux
 
 ### Via le gestionnaire de paquets (recommandé)
 L'utilisation d'un gestionnaire de paquets est la méthode la plus simple et sécurisée pour installer LazyGit, car elle garantit une mise à jour automatique et une gestion des dépendances.
@@ -68,15 +65,6 @@ Les utilisateurs d'Arch Linux peuvent l'installer directement depuis les dépôt
 ```sh
 sudo pacman -S lazygit
 ```
-
-#### Fedora (via dnf)
-Sur Fedora, LazyGit est inclus dans les dépôts par défaut et peut être installé avec dnf.
-```sh
-sudo dnf install lazygit
-```
-
-#### Autres distributions
-Pour les autres distributions Linux, vous pouvez vérifier la disponibilité de LazyGit dans votre gestionnaire de paquets habituel (comme `zypper` pour openSUSE ou `nix-env` pour NixOS). Sinon, la méthode d’installation manuelle est toujours une alternative.
 
 ## ❗Installation via npm, pnpm et yarn
 
@@ -105,29 +93,14 @@ sudo yarn global add lazygit
 ```
 ⚠️ Attention, l'utilisation de `sudo` avec les gestionnaires de paquets JavaScript peut parfois causer des conflits. Il est recommandé d'utiliser `nvm` (Node Version Manager) ou d'ajuster les permissions de votre répertoire global `npm` pour éviter d'avoir besoin des droits administrateurs.
 
-### Installation manuelle (si indisponible dans les dépôts)
-Si LazyGit n'est pas disponible via votre gestionnaire de paquets, vous pouvez télécharger la dernière version et l'installer manuellement :
-```sh
-LAZYGIT_VERSION=$(curl -s https://api.github.com/repos/jesseduffield/lazygit/releases/latest | grep -Po '"tag_name": "\K[^"]*')
-curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/${LAZYGIT_VERSION}/lazygit_$(uname -s)_$(uname -m).tar.gz"
-tar xf lazygit.tar.gz -C /usr/local/bin lazygit
-```
-
-## 🍎 Installation sur macOS
+## 🍎 Comment installer LazyGit sur macOS
 
 ### Via Homebrew (recommandé)
 ```sh
 brew install lazygit
 ```
 
-### Installation manuelle
-```sh
-LAZYGIT_VERSION=$(curl -s https://api.github.com/repos/jesseduffield/lazygit/releases/latest | grep -Po '"tag_name": "\K[^"]*')
-curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/${LAZYGIT_VERSION}/lazygit_Darwin_x86_64.tar.gz"
-tar xf lazygit.tar.gz -C /usr/local/bin lazygit
-```
-
-## 🌅 Installation sur Windows
+## 🌅 Comment installer LazyGit sur Windows
 
 ### Via Scoop (recommandé)
 ```powershell
@@ -137,7 +110,7 @@ scoop install lazygit
 ### Via Chocolatey
 ```powershell
 choco install lazygit
-```
+``` 
 
 ### Installation manuelle
 1. Télécharger la dernière version depuis [GitHub](https://github.com/jesseduffield/lazygit/releases/latest)
@@ -145,12 +118,13 @@ choco install lazygit
 
 ## ✅ Vérification de l'installation
 
-Après l’installation, vous pouvez vérifier que LazyGit est bien installé en exécutant :
+Pour vérifier que LazyGit est bien installé éssayez d'exécuter la commande suivante :
 ```sh
 lazygit --version
 ```
 
 Si la commande affiche un numéro de version, alors LazyGit est prêt à être utilisé ! 🎉
+
 
 
 ## 🚀 Utilisation
@@ -160,6 +134,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 - ***Lancement:***  
    - Ouvrez votre terminal  
    - Tapez lazygit et appuyez sur *Entrée*
+
 
 - ***Navigation dans l'interface:***  
    - Utilisez les *touches fléchées* pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
@@ -263,6 +238,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 ---
 
+>>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 ## ⚙️💻 Configuration 🚀🎉
 
  **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/</span>.Voici un guide **complet et visuel** pour le configurer efficacement.
@@ -288,10 +264,8 @@ Si le dossier n'existe pas,crée-le:
 
 ```
 
-### 📝 1.Configuration minimale pour bien débuter 📝
+### **1. Configuration minimale pour bien débuter** 📝
 
-
-   Si tu veux **commencer simplement**, voici une **configuration de bade** qui améliore l'expérience utilisateur :
 
 #### Exemple de configuration simple :
 
@@ -313,7 +287,7 @@ git:
 
 ```
 
-### ⚡ 2.Configurer les raccourcis clavier ⚡
+### **2. Configurer les raccourcis clavier** ⚡⚡⚡
 
 
    Tu veux **accélérer ton travail** avec des **touches personnalisées**? Voici un bon setup 👇
@@ -338,9 +312,10 @@ keybindings:
 
 ```
 
-### 🎨 3.Changer les couleurs pour un terminal plus stylé 🎨
+### **3.Changer les couleurs pour un terminal plus stylé** 🎨
 
-   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: #CCFFFF; padding: 2px">config.yml</span>
+   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: yellow; padding: 2px">config.yml</span>
+
 
 #### Exemple de configuration simple :
 
@@ -359,7 +334,7 @@ gui:
 
 ### 🏆 4.Gérer tes branches comme un(e) boss 🏆
     
-   Ajoute cette config pour**travailler plus facilement avec tes branches** : 
+   Ajoute cette config pour **travailler plus facilement avec tes branches** : 
 
 #### Exemple de configuration simple :
 
@@ -404,8 +379,9 @@ git:
   ✅ **Un affichage plus clair des commits**
 
 
-  💡 **Tu peux tester cette configuration en modifiant ton**<span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml~</span>
+  💡 **Tu peux tester cette configuration en modifiant ton**<span style="background-color: #CCFFFF; padding: 2px">/.config/lazygit/config.yml</span>
 
+>>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 
 ---
 ## 🛠 Fonctionnalités
@@ -450,9 +426,6 @@ git:
 - 📊 Historique interactif et lisible des logs
 - 🔑 Simplification des tâches répétitives et complexes
 
-## 📄 Documentation
-
-Pour une documentation détaillée, veuillez visiter : [Lien vers la documentation](https://votre-lien-documentation.com)
 
 
 

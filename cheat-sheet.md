@@ -238,23 +238,23 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 ---
 
->>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
-## ⚙️💻 Configuration 🚀🎉
 
- **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/</span>.Voici un guide **complet et visuel** pour le configurer efficacement.
+## ⚙️💻 Configuration 💻⚙️
 
-### 📂 1️⃣ **Emplacement des fichiers de configuration**
+ **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans _~/.config/lazygit/_.Voici un guide **complet et visuel** pour le configurer efficacement.
 
-| Fichier                  | 📌 Chemin                                                                                    |
-| :----------------------: | :------------------------------------------------------------------------------------------: |
-| Linux                    | <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml</span> |
-| macOS                    | <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml</span> |
-| Windows (Git Bash, WSL)  | <span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml</span> |
-| Windows (CMD/Powershell) | <span style="background-color: #CCFFFF; padding: 2px">%APPDATA%\lazygit\config.yml</span>  |
+### 📂 1️⃣ Emplacement des fichiers de configuration
 
-🔹 **Windows** : <span style="background-color: #CCFFFF; padding: 2px">APPDATA</span>est généralement <span style="background-color: #CCFFFF; padding: 2px">C:\Users\NomUtilisateur\AppData\Roaming\lazygit\</span>./br
+| Fichier                  | 📌 Chemin                     |
+| :----------------------: | :---------------------------: |
+| Linux                    | _~/.config/lazygit/config.yml_|
+| macOS                    | _~/.config/lazygit/config.yml_|
+| Windows (Git Bash, WSL)  | _~/.config/lazygit/config.yml_|
+| Windows (CMD/Powershell) | _%APPDATA%\lazygit\config.yml_|
 
-🔹 **WSL** : (Windows Subsystem for linux)suit la même logique que **Linux**(<span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/</span>)/br
+🔹 **Windows** : _APPDATA_ est généralement _C:\Users\NomUtilisateur\AppData\Roaming\lazygit\_
+
+🔹 **WSL** : (Windows Subsystem for linux)suit la même logique que **Linux** _~/.config/lazygit/_
 Si le dossier n'existe pas,crée-le:
 ```sh
 
@@ -264,7 +264,7 @@ Si le dossier n'existe pas,crée-le:
 
 ```
 
-### **1. Configuration minimale pour bien débuter** 📝
+### 📝 1. Configuration minimale pour bien débuter 📝
 
 
 #### Exemple de configuration simple :
@@ -287,7 +287,7 @@ git:
 
 ```
 
-### **2. Configurer les raccourcis clavier** ⚡⚡⚡
+### ⚡ 2. Configurer les raccourcis clavier ⚡
 
 
    Tu veux **accélérer ton travail** avec des **touches personnalisées**? Voici un bon setup 👇
@@ -312,9 +312,9 @@ keybindings:
 
 ```
 
-### **3.Changer les couleurs pour un terminal plus stylé** 🎨
+### 🎨 3.Changer les couleurs pour un terminal plus stylé 🎨
 
-   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: yellow; padding: 2px">config.yml</span>
+   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton _config.yml_
 
 
 #### Exemple de configuration simple :
@@ -379,14 +379,12 @@ git:
   ✅ **Un affichage plus clair des commits**
 
 
-  💡 **Tu peux tester cette configuration en modifiant ton**<span style="background-color: #CCFFFF; padding: 2px">/.config/lazygit/config.yml</span>
+  💡 **Tu peux tester cette configuration en modifiant ton** _/.config/lazygit/config.yml_
 
->>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 
 ---
-## 🛠 Fonctionnalités
 
- ## 🌟 Principales fonctionnalités
+## 🌟 Principales fonctionnalités
 
 
 ### ✅ **Gestion simplifiée des commits**

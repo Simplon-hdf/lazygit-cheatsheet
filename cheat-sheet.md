@@ -3,11 +3,10 @@
 
 ## 📖 Table des Matières
 
-- [🔧 Installation](#-installation)
+- [🔧 Installation](#-installation-de-lazygit)
 - [🚀 Utilisation](#-utilisation)
 - [⚙️ Configuration](#-configuration)
 - [🛠 Fonctionnalités](#-fonctionnalites)
-- [📄 Documentation](#-documentation)
 
 ---
 🧐 **Git, l’outil indispensable des développeurs… mais pas toujours facile à maîtriser !**  
@@ -335,7 +334,7 @@ gui:
 
 ### 🏆 4.Gérer tes branches comme un(e) boss 🏆
     
-   Ajoute cette config pour**travailler plus facilement avec tes branches** : 
+   Ajoute cette config pour **travailler plus facilement avec tes branches** : 
 
 #### Exemple de configuration simple :
 
@@ -427,9 +426,6 @@ git:
 - 📊 Historique interactif et lisible des logs
 - 🔑 Simplification des tâches répétitives et complexes
 
-## 📄 Documentation
-
-Pour une documentation détaillée, veuillez visiter : [Lien vers la documentation](https://votre-lien-documentation.com)
 
 
 

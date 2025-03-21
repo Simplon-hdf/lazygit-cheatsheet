@@ -159,10 +159,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
    - Ouvrez votre terminal  
    - Tapez lazygit et appuyez sur *Entrée*
 
-<<<<<<< HEAD
----
 
-=======
 - ***Navigation dans l'interface:***  
    - Utilisez les *touches fléchées* pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
    - La touche *Entrée* sert à entrer dans un panneau ou à exécuter une action  
@@ -291,15 +288,8 @@ Si le dossier n'existe pas,crée-le:
 
 ```
 
-<<<<<<< HEAD
 ### **1. Configuration minimale pour bien débuter** 📝
 
-=======
-### 📝 1.Configuration minimale pour bien débuter 📝
-
-
->>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
-   Si tu veux **commencer simplement**, voici une **configuration de bade** qui améliore l'expérience utilisateur :
 
 #### Exemple de configuration simple :
 
@@ -321,12 +311,8 @@ git:
 
 ```
 
-<<<<<<< HEAD
 ### **2. Configurer les raccourcis clavier** ⚡⚡⚡
-=======
-### ⚡ 2.Configurer les raccourcis clavier ⚡
 
->>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 
    Tu veux **accélérer ton travail** avec des **touches personnalisées**? Voici un bon setup 👇
  
@@ -350,15 +336,10 @@ keybindings:
 
 ```
 
-<<<<<<< HEAD
 ### **3.Changer les couleurs pour un terminal plus stylé** 🎨
 
    Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: yellow; padding: 2px">config.yml</span>
-=======
-### 🎨 3.Changer les couleurs pour un terminal plus stylé 🎨
 
-   Tu veux un **thème ultra fun** pour ton terminal? Ajoute ça dans ton <span style="background-color: #CCFFFF; padding: 2px">config.yml</span>
->>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 
 #### Exemple de configuration simple :
 
@@ -375,8 +356,6 @@ gui:
 
 ```
 
-<<<<<<< HEAD
-=======
 ### 🏆 4.Gérer tes branches comme un(e) boss 🏆
     
    Ajoute cette config pour**travailler plus facilement avec tes branches** : 

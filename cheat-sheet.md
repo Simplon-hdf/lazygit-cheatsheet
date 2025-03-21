@@ -128,7 +128,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 
 
-## 🚀 Utilisation
+## 🚀 Utilisation 
 
 ### 1.  Démarrage et Navigation de Base:
 

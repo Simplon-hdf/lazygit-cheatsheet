@@ -380,7 +380,7 @@ git:
   ✅ **Un affichage plus clair des commits**
 
 
-  💡 **Tu peux tester cette configuration en modifiant ton**<span style="background-color: #CCFFFF; padding: 2px">~/.config/lazygit/config.yml~</span>
+  💡 **Tu peux tester cette configuration en modifiant ton**<span style="background-color: #CCFFFF; padding: 2px">/.config/lazygit/config.yml</span>
 
 >>>>>>> 32bdcfb00b25f4d21c188f447120cb486ef5a8bc
 

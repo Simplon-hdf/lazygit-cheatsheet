@@ -133,44 +133,44 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 #### 🚀- Lancement:  
    - Ouvrez votre terminal  
-   - Tapez lazygit et appuyez sur Entrée
+   - Tapez lazygit et appuyez sur _Entrée_
 
 #### ⌨️- Navigation dans l'interface:  
-   - Utilisez les touches fléchées pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
-   - La touche Entrée sert à entrer dans un panneau ou à exécuter une action  
-   - La touche q permet de quitter Lazygit
+   - Utilisez les _touches fléchées_ pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
+   - La touche _Entrée_ sert à entrer dans un panneau ou à exécuter une action  
+   - La touche _q_ permet de quitter Lazygit
 
 ### 2. Flux de Travail de Commit Standard:
 
 #### 👁️‍🗨️- Visualisation des changements:  
    - Dans le panneau "Files" vous verrez les fichiers modifiés  
-   - Utilisez Entrée sur un fichier pour voir les modifications spécifiques  
+   - Utilisez _Entrée_ sur un fichier pour voir les modifications spécifiques  
   
 #### 📥- Ajout de fichiers au staging (indexation):  
-   - Sélectionnez les fichiers à ajouter avec les touches fléchées  
-   - Appuyez sur espace pour les ajouter au staging  
+   - Sélectionnez les fichiers à ajouter avec les _touches fléchées_  
+   - Appuyez sur _espace_ pour les ajouter au staging  
     
 #### 📝- Création d'un commit:  
    - Allez dans le panneau "Commits"  
-   - Appuyez sur c pour ouvrir l'éditeur de message de commit  
+   - Appuyez sur _c_ pour ouvrir l'éditeur de message de commit  
    - Écrivez votre message de commit et enregistrez  
 
 #### ⬆️- Push des commits:  
    - Allez dans le panneau "Local branches"  
-   - S'il y a une branche distante configurée, appuyez sur P pour faire un push
+   - S'il y a une branche distante configurée, appuyez sur _P_ pour faire un push
 
 ### 3. Gestion des Branches:  
   
 #### ➕- Création d'une nouvelle branche:  
-   - Dans le panneau "Local branches", appuyez sur n  
+   - Dans le panneau "Local branches", appuyez sur _n_  
    - Entrez le nom de la nouvelle branche  
 #### 🔄- Changement de branche (checkout):  
    - Sélectionnez la branche souhaitée  
-   - Appuyez sur Entrée  
+   - Appuyez sur _Entrée_  
 #### 🔀- Fusion (merge) de branches:  
    - Assurez-vous d'être sur la branche dans laquelle vous souhaitez fusionner  
    - Sélectionnez la branche à fusionner  
-   - appuyez sur m pour réaliser la fusion
+   - appuyez sur _m_ pour réaliser la fusion
 
 ### 4. Conflits:  
   
@@ -179,7 +179,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 #### 🛠️- Résolution des conflits:  
    - Utilisez votre éditeur de code pour résoudre les conflits dans les fichiers  
    - Une fois résolus, ajoutez les fichiers modifiés au staging (espace)   
-   - Continuez la procédure de merge en validant avec la touche c dans le panneau commit    
+   - Continuez la procédure de merge en validant avec la touche _c_ dans le panneau commit    
 
 ### 🔎1. Onglet Status
 

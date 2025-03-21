@@ -5,8 +5,8 @@
 
 - [🔧 Installation](#-installation-de-lazygit)
 - [🚀 Utilisation](#-utilisation)
-- [⚙️ Personnalisation](#-personnalisation)
-- [🛠 Fonctionnalités](#-principales-fonctionnalites)
+- [⚙️ Configuration](#configuration-principale)
+- [🛠 Fonctionnalités](#-principales-fonctionnalités)
 
 ---
 🧐 **Git, l’outil indispensable des développeurs… mais pas toujours facile à maîtriser !**  
@@ -236,7 +236,7 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 
 
-## ⚙️💻 Personnalisation 💻⚙️
+## Configuration principale
 
 
  **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans _~/.config/lazygit/_.Voici un guide **complet et visuel** pour le configurer efficacement.

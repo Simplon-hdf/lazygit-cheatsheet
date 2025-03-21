@@ -135,17 +135,10 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
    - Ouvrez votre terminal  
    - Tapez lazygit et appuyez sur _Entrée_
 
-<<<<<<< HEAD
 #### ⌨️ Navigation dans l'interface:  
    - Utilisez les touches fléchées pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
    - La touche Entrée sert à entrer dans un panneau ou à exécuter une action  
    - La touche q permet de quitter Lazygit
-=======
-#### ⌨️- Navigation dans l'interface:  
-   - Utilisez les _touches fléchées_ pour vous déplacer entre les différents panneaux (fichiers, branches, commits, etc.)  
-   - La touche _Entrée_ sert à entrer dans un panneau ou à exécuter une action  
-   - La touche _q_ permet de quitter Lazygit
->>>>>>> 2f9cd944927c5c42b1ea644cf72867273a3ec157
 
 ### 2. Flux de Travail de Commit Standard:
 
@@ -153,15 +146,9 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
    - Dans le panneau "Files" vous verrez les fichiers modifiés  
    - Utilisez _Entrée_ sur un fichier pour voir les modifications spécifiques  
   
-<<<<<<< HEAD
 #### 📥 Ajout de fichiers au staging (indexation):  
    - Sélectionnez les fichiers à ajouter avec les touches fléchées  
    - Appuyez sur espace pour les ajouter au staging  
-=======
-#### 📥- Ajout de fichiers au staging (indexation):  
-   - Sélectionnez les fichiers à ajouter avec les _touches fléchées_  
-   - Appuyez sur _espace_ pour les ajouter au staging  
->>>>>>> 2f9cd944927c5c42b1ea644cf72867273a3ec157
     
 #### 📝 Création d'un commit:  
    - Allez dans le panneau "Commits"  
@@ -174,23 +161,13 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 ### 3. Gestion des Branches:  
   
-<<<<<<< HEAD
 #### ➕ Création d'une nouvelle branche:  
    - Dans le panneau "Local branches", appuyez sur n  
-=======
-#### ➕- Création d'une nouvelle branche:  
-   - Dans le panneau "Local branches", appuyez sur _n_  
->>>>>>> 2f9cd944927c5c42b1ea644cf72867273a3ec157
    - Entrez le nom de la nouvelle branche  
 #### 🔄 Changement de branche (checkout):  
    - Sélectionnez la branche souhaitée  
-<<<<<<< HEAD
    - Appuyez sur Entrée  
 #### 🔀 Fusion (merge) de branches:  
-=======
-   - Appuyez sur _Entrée_  
-#### 🔀- Fusion (merge) de branches:  
->>>>>>> 2f9cd944927c5c42b1ea644cf72867273a3ec157
    - Assurez-vous d'être sur la branche dans laquelle vous souhaitez fusionner  
    - Sélectionnez la branche à fusionner  
    - appuyez sur _m_ pour réaliser la fusion

@@ -236,7 +236,6 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 
 
-<<<<<<< HEAD
 
 ## ⚙️💻 Configuration 💻⚙️
 
@@ -253,23 +252,6 @@ Si la commande affiche un numéro de version, alors LazyGit est prêt à être u
 
 🔹 **Windows** : _APPDATA_ est généralement _C:\Users\NomUtilisateur\AppData\Roaming\lazygit\_
 
-=======
-## ⚙️💻 Configuration 💻⚙️
-
- **LazyGit** est hautement personnalisable grâce à des fichiers de configuration **YAML** situés dans _~/.config/lazygit/_.Voici un guide **complet et visuel** pour le configurer efficacement.
-
-### 📂  Emplacement des fichiers de configuration
-
-| Fichier                  | 📌 Chemin                     |
-| :----------------------: | :---------------------------: |
-| Linux                    | _~/.config/lazygit/config.yml_|
-| macOS                    | _~/.config/lazygit/config.yml_|
-| Windows (Git Bash, WSL)  | _~/.config/lazygit/config.yml_|
-| Windows (CMD/Powershell) | _%APPDATA%\lazygit\config.yml_|
-
-🔹 **Windows** : _APPDATA_ est généralement _C:\Users\NomUtilisateur\AppData\Roaming\lazygit\_
-
->>>>>>> main
 🔹 **WSL** : (Windows Subsystem for linux)suit la même logique que **Linux** _~/.config/lazygit/_
 Si le dossier n'existe pas,crée-le:
 ```sh
